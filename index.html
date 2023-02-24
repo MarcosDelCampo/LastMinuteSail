@@ -8,14 +8,58 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="headerInfo">
-            <h1>Lorem ipsum dolor sit amet.</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi illo modi magnam saepe. Iste distinctio odio provident aperiam earum tempora?</p>
-            <button>Reservar</button>
+    <video src="./assets/sources/video/backgroundvideo.mp4" autoplay="true" muted="true" loop="true" poster="./assets/sources/video/backgroundvideo.mp4"></video>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./assets/sources/img/logo.png" alt="" class="logoImg">
+            <h6>LastMinuteSailing</h6>
+        </div>
+        <div class="disponibilidad">
+            <img src="./assets/sources/img/logofecha.png" alt="" class="logoImg">
+            <h6 class=soldOut >Sold Out</h6>
+            <img src="./assets/sources/img/logofecha.png" alt="" class="logoImg">
+            <h6 >Available</h6>
+        </div>
+
+    </nav>    
+    <header>
+        <div class="Info">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi illo modi magnam saepe. Iste distinctio odio provident aperiam earum tempora?</p>
+                <a href="#contactUs"><button class="btn">RESERVAR</button></a>
         </div>
     </header>
+    <main>
+        <section class="contactUs" id="contactUs">
+            <h2>CONTACT US</h2>
+            <form action="post" class="form">
+                <label>
+                    NAME
+                    <input type="text" name="name" placeholder="Name" required>
+                </label>
+                <label>
+                    TRAVELERS
+                    <input type="text" name="travelers" placeholder="How many travelers" required>
+                </label>
+                <label>
+                    BLABLA
+                    <input type="text" name="blabla" placeholder="blabla" required>
+                </label>
+                <label>
+                    PAPAPAPAP
+                    <input type="text" name="papapapap" placeholder="papapapap" required>
+                </label>
+                <label>
+                    PKNSNSN
+                    <textarea name="pknsnsn" placeholder="pknsnsn"></textarea>
+                </label>
+                <input type="submit" value="Send" class="btn">
+            </form>
+        </section>
+    </main>
+    <footer>
 
+    </footer>
     <script src="./assets/js/main.js"></script>
 </body>
 </html>
